@@ -7,7 +7,7 @@ class Config:
 
 	
     #voc root
-    VOC_ROOT = '/data/PASCAL'
+    VOC_ROOT = '/SSD_ResNet_Pytorch'
 
     #class + 1
     num_classes = 21

@@ -63,8 +63,8 @@ cachedir = os.path.join( os.getcwd(), 'annotations_cache')
 if __name__ == '__main__': 
     
     print('using {} to eval, use cpu may take an hour to complete !!'.format(device))
-#     model = RES_SSD(opt.num_classes, opt.anchor_num, pretrain=False)
-    model = VGG_SSD(opt.num_classes, opt.anchor_num)
+    model = RES_SSD(opt.num_classes, opt.anchor_num, pretrain=False)
+#     model = VGG_SSD(opt.num_classes, opt.anchor_num)
 
 
     print('loading checkpoint from {}'.format(checkpoint))

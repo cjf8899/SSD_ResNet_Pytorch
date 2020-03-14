@@ -53,6 +53,7 @@ wget https://download.pytorch.org/models/resnet18-5c106cde.pth
 | ssd paper |    77.2    |
 |    this repo - VGG   | 78.9 |
 |    this repo - ResNet18   | 70.1 |
+
 The ssd paper used Xavier after the base network(VGG), but did not use Xavier because this repo used relu.
 
 Other experiments..

@@ -32,7 +32,8 @@ the structures would like
 ~/VOCtest2007/
     -- VOC2007  
 ```
-#Train
+# Train
+
 pre-train [VGG](https://s3.amazonaws.com/amdegroot-models/vgg16_reducedfc.pth) weights
 
 pre-train [ResNet18](https://download.pytorch.org/models/resnet18-5c106cde.pth) weights
@@ -44,7 +45,8 @@ wget https://s3.amazonaws.com/amdegroot-models/vgg16_reducedfc.pth
 wget https://download.pytorch.org/models/resnet18-5c106cde.pth
 ```
 
-#Results
+# Results
+
 
 |              Implementation              |     mAP     |
 | :--------------------------------------: | :---------: |

@@ -3,7 +3,7 @@
 from voc_dataset import VOCDetection
 from config import opt
 import numpy as np
-from lib.res_model import RES_SSD
+from lib.res_model import RES18_SSD, RES101_SSD
 from lib.vgg_model import VGG_SSD
 import torch
 import torch.nn.functional as F
@@ -30,7 +30,7 @@ from collections import OrderedDict
 parser = argparse.ArgumentParser()
 
 parser.add_argument('--model', 
-                    default='./weights/vgg_base_aug/loss-646.26.pth',
+                    default='./weights/loss-646.26.pth',
                     type=str,
                     help='model checkpoint used to eval VOC dataset')
 
@@ -63,7 +63,9 @@ cachedir = os.path.join( os.getcwd(), 'annotations_cache')
 if __name__ == '__main__': 
     
     print('using {} to eval, use cpu may take an hour to complete !!'.format(device))
-    model = RES_SSD(opt.num_classes, opt.anchor_num, pretrain=False)
+    
+#     model = RES18_SSD(opt.num_classes, opt.anchor_num, pretrain=False)
+    model = RES101_SSD(opt.num_classes, opt.anchor_num, pretrain=False)
 #     model = VGG_SSD(opt.num_classes, opt.anchor_num)
 
 

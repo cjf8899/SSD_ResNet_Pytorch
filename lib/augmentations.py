@@ -152,9 +152,3 @@ def preproc_for_train(image, boxes, labels, insize, mean):
 
     return image, boxes, labels
 
-if __name__ == '__main__':  
-    
-    import os
-    import cv2
-    ano_path = os.path.join('/data/PASCAL/VOCtest2007/VOC2007/', 'Annotations', line + '.xml')
-    img_path = os.path.join('/data/PASCAL/VOCtest2007/VOC2007/', 'JPEGImages', line + '.jpg')

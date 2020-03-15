@@ -12,9 +12,6 @@ class Config:
     #class + 1
     num_classes = 21
 
-    #resume = 'weights/loss-2079.08.pth'
-#     resume = False
-    
     
     #learning rate
     lr = 0.001
@@ -28,7 +25,8 @@ class Config:
     epoch = 116 
 
 
-    #pre-train root
+    #pre-train VGG root
+    #The resnet pre-train model is in lib.res-model...
     save_folder = './weights/'
     basenet = 'vgg16_reducedfc.pth'
 

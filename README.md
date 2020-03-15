@@ -34,16 +34,20 @@ the structures would like
 ```
 # Train
 
-pre-train [VGG](https://s3.amazonaws.com/amdegroot-models/vgg16_reducedfc.pth) weights
+pre-train [VGG](https://s3.amazonaws.com/amdegroot-models/vgg16_reducedfc.pth) weights https://s3.amazonaws.com/amdegroot-models/vgg16_reducedfc.pth
 
-pre-train [ResNet18](https://download.pytorch.org/models/resnet18-5c106cde.pth) weights
+pre-train [ResNet18](https://download.pytorch.org/models/resnet18-5c106cde.pth) weights https://download.pytorch.org/models/resnet18-5c106cde.pth
 
+pre-train [ResNet101](https://download.pytorch.org/models/resnet101-5d3b4d8f.pth) weights https://download.pytorch.org/models/resnet101-5d3b4d8f.pth
 ```
 mkdir weights
 cd weights
 wget https://s3.amazonaws.com/amdegroot-models/vgg16_reducedfc.pth
 wget https://download.pytorch.org/models/resnet18-5c106cde.pth
+wget https://download.pytorch.org/models/resnet101-5d3b4d8f.pth
 ```
+
+Select and use the desired model
 
 # Results
 

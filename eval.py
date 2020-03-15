@@ -135,7 +135,6 @@ if __name__ == '__main__':
         f.close()
     
     
-    print(imgsetpath.format('test'))
     print('start cal MAP.........')
     aps = []
     for f in os.listdir(output_dir):

@@ -47,7 +47,7 @@ wget https://download.pytorch.org/models/resnet18-5c106cde.pth
 
 # Results
 
-The [dssd](https://arxiv.org/pdf/1701.06659.pdf) paper measured the performance of resnet101. The image size of the dssd paper is 321.
+The [DSSD](https://arxiv.org/pdf/1701.06659.pdf) paper measured the performance of resnet101. The image size of the dssd paper is 321.
 
 |              Implementation              |     mAP     |
 | :--------------------------------------: | :---------: |

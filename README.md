@@ -55,8 +55,8 @@ The [DSSD](https://arxiv.org/pdf/1701.06659.pdf) paper measured the performance 
 
 |              Implementation              |     mAP     |
 | :--------------------------------------: | :---------: |
-| ssd paper - VGG |    77.2    |
-| dssd paper - ResNet101 |    77.1    |
+| SSD paper - VGG |    77.2    |
+| DSSD paper - ResNet101 |    77.1    |
 |    this repo - VGG   | 78.9 |
 |    this repo - ResNet18   | 70.1 |
 |    this repo - ResNet101   | 77.5 |

@@ -51,7 +51,7 @@ Select and use the desired model
 
 # Results
 
-The [DSSD](https://arxiv.org/pdf/1701.06659.pdf) paper measured the performance of resnet101. The image size of the dssd paper is 321.
+The [DSSD](https://arxiv.org/pdf/1701.06659.pdf) paper measured the performance of resnet101. The image size of the DSSD paper is 321.
 
 |              Implementation              |     mAP     |
 | :--------------------------------------: | :---------: |
@@ -61,7 +61,7 @@ The [DSSD](https://arxiv.org/pdf/1701.06659.pdf) paper measured the performance 
 |    this repo - ResNet18   | 70.1 |
 |    this repo - ResNet101   | 77.5 |
 
-The ssd paper used Xavier after the base network(VGG), but did not use Xavier because this repo used relu.
+The SSD paper used Xavier after the base network(VGG), but did not use Xavier because this repo used relu.
 
 Other experiments..
 

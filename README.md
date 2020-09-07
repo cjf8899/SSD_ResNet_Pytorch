@@ -70,6 +70,9 @@ Other experiments..
 |   ResNet18_No_pretrain   | 54.4 |
 |    VGG_No_Augmentation   | 66.8 |
 
+# Paper Reading
+VGG PR : https://github.com/cjf8899/PR_VGG
+
 
 # Referenced. Thank you all
 ssd code : https://github.com/HosinPrime/simple-ssd-for-beginners

@@ -72,6 +72,7 @@ Other experiments..
 
 # Paper Reading
 VGG PR : https://github.com/cjf8899/PR_VGG
+ResNet PR : https://github.com/cjf8899/PR_ResNet
 
 
 # Referenced. Thank you all

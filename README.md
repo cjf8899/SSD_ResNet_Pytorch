@@ -70,10 +70,12 @@ Other experiments..
 |   ResNet18_No_pretrain   | 54.4 |
 |    VGG_No_Augmentation   | 66.8 |
 
-# Paper Reading
-VGG PR : https://github.com/cjf8899/PR_VGG
+# Paper Review
+VGG PR : https://cjf8899.github.io/image%20recognition/VGG/
 
-ResNet PR : https://github.com/cjf8899/PR_ResNet
+ResNet PR : https://cjf8899.github.io/image%20recognition/ResNet/
+
+ResNet PR : https://cjf8899.github.io/image%20recognition/ResNeXt/
 
 
 # Referenced. Thank you all

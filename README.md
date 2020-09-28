@@ -75,7 +75,7 @@ VGG PR : https://cjf8899.github.io/image%20recognition/VGG/
 
 ResNet PR : https://cjf8899.github.io/image%20recognition/ResNet/
 
-ResNet PR : https://cjf8899.github.io/image%20recognition/ResNeXt/
+ResNeXt PR : https://cjf8899.github.io/image%20recognition/ResNeXt/
 
 
 # Referenced. Thank you all
